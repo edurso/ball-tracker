@@ -153,11 +153,7 @@ while stream_active:
                                 scored_ids_only.append(sid)
 
                             if pid not in scored_ids_only:
-                                scored_balls_ids.append((pid, px, py))
-                            # for scored_balls_id in scored_balls_ids:
-                            #     sid, _, _ = scored_balls_id
-                            #     if not sid == pid:
-                            
+                                scored_balls_ids.append((pid, px, py))                            
 
         # draw & label scored balls
         for scored_balls_id in scored_balls_ids:
